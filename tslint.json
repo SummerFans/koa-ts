@@ -1,0 +1,31 @@
+{
+    "extends": "tslint:recommended",
+    "exclude": ["node_modules"],
+    "rules": {
+        "curly": false,
+        "no-any": true,
+        "strict-type-predicates": true,
+        "no-duplicate-variable": true,
+        "no-unused-variable": [
+            true
+        ],
+        "no-non-null-assertion": true,
+        "strict-type-predicates": true,
+        "arrow-return-shorthand": [true, "multiline"],
+        "no-var-requires": false,
+        "ordered-imports": false,
+        "object-literal-sort-keys": false,
+        "no-import-side-effect": false,
+        "trailing-comma": [true, { "multiline": "never", "singleline": "never" }],
+        "one-line": [true, "check-catch", "check-finally", "check-else"],
+        "one-variable-per-declaration": [true, "ignore-for-loop"],
+        "no-console": [false, "log"],
+        "semicolon": [true, "always"],
+        "quotemark": [true, "single"],
+        "no-require-imports": false,
+        "variable-name": [true, "ban-keywords", "check-format", "allow-leading-underscore"]
+    },
+    "rulesDirectory": [
+        "src"
+    ]
+}
