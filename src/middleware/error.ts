@@ -1,7 +1,7 @@
 export function errorMiddleware() {
-  return  (ctx, next) => {
+  return async (ctx, next) => {
     try {
-       next();
+       await next();
     } catch (err) {
       ctx.status = err.status || 500;
       ctx.body = {

@@ -23,8 +23,8 @@ exports = module.exports = (app) => {
            await lastHandler(ctx);
         });
 
-        app.use(convert(instance.routes()));
-        app.use(convert(instance.allowedMethods()));
+        app.use(instance.routes());
+        app.use(instance.allowedMethods());
       });
     });
 
