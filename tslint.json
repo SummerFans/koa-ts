@@ -4,7 +4,6 @@
     "rules": {
         "curly": false,
         "no-any": true,
-        "strict-type-predicates": true,
         "no-duplicate-variable": true,
         "no-unused-variable": [
             true
@@ -13,7 +12,7 @@
         "strict-type-predicates": true,
         "arrow-return-shorthand": [true, "multiline"],
         "no-var-requires": false,
-        "ordered-imports": false,
+        "ordered-imports": [false],
         "object-literal-sort-keys": false,
         "no-import-side-effect": false,
         "trailing-comma": [true, { "multiline": "never", "singleline": "never" }],
