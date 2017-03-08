@@ -9,7 +9,7 @@
             true
         ],
         "no-non-null-assertion": true,
-        "strict-type-predicates": true,
+        "strict-type-predicates": false,
         "arrow-return-shorthand": [true, "multiline"],
         "no-var-requires": false,
         "ordered-imports": [false],

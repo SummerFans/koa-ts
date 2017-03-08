@@ -1,6 +1,5 @@
 import * as glob from 'glob';
 import * as Router from 'koa-router';
-import * as convert from 'koa-convert';
 
 exports = module.exports = (app) => {
   glob(`${__dirname}/*`, { ignore: '**/index.js*' }, (err, matches) => {

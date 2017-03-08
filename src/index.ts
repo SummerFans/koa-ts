@@ -11,9 +11,9 @@ import { errorMiddleware } from './middleware/error';
 app.use(convert(logger()));
 app.use(convert(bodyParser()));
 app.use(convert(errorMiddleware()));
-app.use(views(__dirname + '/views', {
+app.use(convert(views(__dirname + '/views', {
   extension: 'jade'
-}));
+})));
 
 const modules = require('./modules');
 modules(app);
